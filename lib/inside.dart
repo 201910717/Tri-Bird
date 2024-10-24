@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
 import 'team_dish.dart'; // team_dish.dart 파일 import
+import 'package:url_launcher/url_launcher.dart';
 
 class InsidePage extends StatelessWidget {
+  const InsidePage({Key? key}) : super(key: key);
+
+  // URL을 열기 위한 함수
+  Future<void> _launchURL(String urlString) async {
+    final Uri url = Uri.parse(urlString);
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+      throw Exception('Could not launch $urlString');
+    }
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -84,6 +95,9 @@ class InsidePage extends StatelessWidget {
             top: 405,
             left: 30,
             child: GestureDetector(
+              onTap: () {
+                _launchURL('https://www.figma.com/design/chgnpVtTqkFf812oFCTe7O/1%EC%A1%B0..2%EC%A1%B0...3%EC%83%89%EC%A1%B0......?node-id=0-1&t=dxgL4HTecqY93obt-1');
+              },
               child: Column(
                 children: [
                   Image.asset(
@@ -105,6 +119,9 @@ class InsidePage extends StatelessWidget {
             top: 405,
             left: 200,
             child: GestureDetector(
+              onTap: () {
+                _launchURL('https://www.notion.so/8a24003db7514a868c9b0b6aafe010c1');
+              },
               child: Column(
                 children: [
                   Image.asset(
@@ -150,3 +167,4 @@ class InsidePage extends StatelessWidget {
     );
   }
 }
+

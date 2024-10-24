@@ -7,10 +7,10 @@ class membersDetail extends StatelessWidget {
 
   // 이미지 이름을 키(Key)로 이미지 URL을 값(Value)으로 맵(딕셔너리) 변수를 정의
   var teamUrls = {
-    "권하윤": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/6040564374267551348?stp=dst-src&url=https%3A%2F%2Fmedia2.giphy.com%2Fmedia%2Fv1.Y2lkPTA1NzQyMTNjMG50Z20wejFhaWE0bTh2dGxzZDJkNHl5OXphN3o1ZXE3ZGpucGp5ZyZlcD12MV9naWZzX2dpZklkJmN0PWc%2FYkmxa4KGwCDioZA3cK%2F200.gif&utld=giphy.com&ccb=13-1&oh=06_Q399sd80FKy3kbSgs3IpiA5j1riah_SJkdXxb5BkAbR5DQc&oe=6718EF5D&_nc_sid=1d65fc",
-    "김서현": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4280864709784976396?stp=dst-src&url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2Fv1.Y2lkPTA1NzQyMTNjanZkbWhpcHllaGlycGlwZ3licDlzbGR5a2w5eGV1OWR5ZGhlOGpmOCZlcD12MV9naWZzX2dpZklkJmN0PWc%2FxUalpHKRsw8qb7jwO4%2F200.gif&utld=giphy.com&ccb=13-1&oh=06_Q399xiL_oRtMVAOTw8Rv-YQHVWBRWcQ18-THlWXUp0vWPpE&oe=67190578&_nc_sid=1d65fc",
+    "권하윤": "https://external.xx.fbcdn.net/emg1/v/t13/6040564374267551348?stp=dst-src&url=https%3A%2F%2Fmedia2.giphy.com%2Fmedia%2Fv1.Y2lkPTA1NzQyMTNjMG50Z20wejFhaWE0bTh2dGxzZDJkNHl5OXphN3o1ZXE3ZGpucGp5ZyZlcD12MV9naWZzX2dpZklkJmN0PWc%2FYkmxa4KGwCDioZA3cK%2F200.gif&utld=giphy.com&ccb=13-1&oh=06_Q3991M-HvAF5u3wM2Xd7MEx1fDv271yuTw5_etUlnhyKKLc&oe=671BCA9D&_nc_sid=1d65fc",
+    "김서현": "https://external.xx.fbcdn.net/emg1/v/t13/4280864709784976396?stp=dst-src&url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2Fv1.Y2lkPTA1NzQyMTNjanZkbWhpcHllaGlycGlwZ3licDlzbGR5a2w5eGV1OWR5ZGhlOGpmOCZlcD12MV9naWZzX2dpZklkJmN0PWc%2FxUalpHKRsw8qb7jwO4%2F200.gif&utld=giphy.com&ccb=13-1&oh=06_Q399tQSfMpPTPLO2bxFeVzNCRStWxeapCAlCoQTL8Z4UJyQ&oe=671BA878&_nc_sid=1d65fc",
     "이하연": "https://t1.daumcdn.net/cafeattach/1IHuH/355cdbe4f84fe44d9e26f3b5698c30c9ad54506b",
-    "송민제": "https://external.xx.fbcdn.net/emg1/v/t13/13252175012651398491?stp=dst-src&url=https%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fv1.Y2lkPTA1NzQyMTNjaDVmY3doanFrbmtoZGZhMnN2aWgwZGF3aGpuc3E3dTJ6emc5OGo1dCZlcD12MV9naWZzX2dpZklkJmN0PWc%2FqmtmYOF6tJObX5UQI9%2F200.gif&utld=giphy.com&ccb=13-1&oh=06_Q399cuD1oKmmdxwSVb3JTCiyo79dz4U2tO-OBqa53GRyEOs&oe=6718DF29&_nc_sid=1d65fc",
+    "송민제": "https://external.xx.fbcdn.net/emg1/v/t13/10498163917063255294?stp=dst-src&url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPTA1NzQyMTNjaGFibHM2eXB0cWFpajA2ZWF3c3ppc2pjdzF3empyam9uMGtzcmN0NiZlcD12MV9naWZzX2dpZklkJmN0PWc%2FOl4sZvTbRTeCPCgQLb%2F200.gif&utld=giphy.com&ccb=13-1&oh=06_Q3996KGNyvjbOnfe5tmUcgUSsNJJ5z5SAPZhT9rOmIQ8SUI&oe=671BA804&_nc_sid=1d65fc",
     "임정현": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FB1JC7%2FbtsKeO8tgwr%2FaFIKz5oAptRhLBuTuHRc8k%2Fimg.png"
   };
 
